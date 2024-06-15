@@ -2,7 +2,7 @@ import json
 
 with open('llm_serialized.json', 'w') as f:
     serialized_llm = json.dumps({
-        'model': "D:\Actualisation\Workings\Serverles\model\mistral-7b-instruct-v0.2.Q2_K.gguf",
+        'model': "D:\Serverles\model\mistral-7b-instruct-v0.2.Q2_K.gguf",
         'model_type': "llama",
         'config': {'max_new_tokens': 512, 'temperature': 0.5}
     })
